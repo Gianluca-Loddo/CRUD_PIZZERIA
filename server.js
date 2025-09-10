@@ -7,6 +7,8 @@ app.use(express.static('public')); // serve per i file statici (HTML, CSS, JS) n
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
+  // console.log("Server is running on http://localhost:" + PORT); // alternativa
+
 });
 
 
