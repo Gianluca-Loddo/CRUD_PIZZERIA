@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.use(express.static('public'));
+app.use(express.static('public')); // serve per i file statici (HTML, CSS, JS) nella cartella 'public'
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
